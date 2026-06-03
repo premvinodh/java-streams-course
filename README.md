@@ -14,6 +14,7 @@ Refer the section below on how to [get a specific commit(https://github.com/prem
 | 	1.		| Base code - the initial set of empty questions or methods to be used for practicing streams.     		  | 235ae0ab6535370e246ffefa1947050ef94b701b			|
 | 	2.		| Lecture1 - Find people aged less or equal 18 and Then change implementation to find first 10 people	  | d248143a0a1f72a001c118690ba8c15746f11fb1			|
 | 	3.		| Lecture2 - Iterating with Streams - Using IntStreams													  | 216e450174f99cf99db68a98519a05c77bcafd09			|
+| 	4.		| Lecture3 - Min, Max & Comparators - Finding min and max												  | 43eea76d7ebe08b5368891b34fe6d75947bfbfdb			|
 
 ### How to get certain commit from GitHub project
 ------------------------------------------------
