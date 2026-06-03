@@ -9,12 +9,13 @@ Commits and their associated topics
 -----------------------------------
 Refer the section below on how to [get a specific commit(https://github.com/premvinodh/java-streams-course#how-to-get-certain-commit-from-github-project)].
 
-| Sl.No		| Topic                         									                                      | Commit Hash           								|
-|:---------:|---------------------------------------------------------------------------------------------------------|:---------------------------------------------------:|
-| 	1.		| Base code - the initial set of empty questions or methods to be used for practicing streams.     		  | 235ae0ab6535370e246ffefa1947050ef94b701b			|
-| 	2.		| Lecture1 - Find people aged less or equal 18 and Then change implementation to find first 10 people	  | d248143a0a1f72a001c118690ba8c15746f11fb1			|
-| 	3.		| Lecture2 - Iterating with Streams - Using IntStreams													  | 216e450174f99cf99db68a98519a05c77bcafd09			|
-| 	4.		| Lecture3 - Min, Max & Comparators - Finding min and max												  | 43eea76d7ebe08b5368891b34fe6d75947bfbfdb			|
+| Sl.No		| Topic                         									                                      				| Commit Hash           							|
+|:---------:|-----------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------:|
+| 	1.		| Base code - the initial set of empty questions or methods to be used for practicing streams.     		  				| 235ae0ab6535370e246ffefa1947050ef94b701b			|
+| 	2.		| Lecture1 - Find people aged less or equal 18 and Then change implementation to find first 10 people	  				| d248143a0a1f72a001c118690ba8c15746f11fb1			|
+| 	3.		| Lecture2 - Iterating with Streams - Using IntStreams													  				| 216e450174f99cf99db68a98519a05c77bcafd09			|
+| 	4.		| Lecture3 - Min, Max & Comparators - Finding min and max												  				| 43eea76d7ebe08b5368891b34fe6d75947bfbfdb			|
+| 	5.		| Lecture4 - Distinct & Collectors.toSet() - Finding distinct elements - return distinct elements as list and as set	| 315c608eaf7335463c4a954f3abec4a418c0a34a			|
 
 ### How to get certain commit from GitHub project
 ------------------------------------------------
