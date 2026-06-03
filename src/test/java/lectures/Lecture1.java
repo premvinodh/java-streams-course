@@ -39,6 +39,11 @@ public class Lecture1 {
         }
     }
 
+    /**
+     *  1. Find people aged less or equal 18
+     *  2. Then change implementation to find first 10 people
+     * @throws Exception
+     */
     @Test
     public void declarativeApproachUsingStreams() throws Exception {
         ImmutableList<Person> people = MockData.getPeople();
