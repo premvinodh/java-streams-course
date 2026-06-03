@@ -16,6 +16,7 @@ Refer the section below on how to [get a specific commit(https://github.com/prem
 | 	3.		| Lecture2 - Iterating with Streams - Using IntStreams													  				| 216e450174f99cf99db68a98519a05c77bcafd09			|
 | 	4.		| Lecture3 - Min, Max & Comparators - Finding min and max												  				| 43eea76d7ebe08b5368891b34fe6d75947bfbfdb			|
 | 	5.		| Lecture4 - Distinct & Collectors.toSet() - Finding distinct elements - return distinct elements as list and as set	| 315c608eaf7335463c4a954f3abec4a418c0a34a			|
+| 	6.		| Lecture5 - Filtering & Transformations - filter, stream.map() and stream.mapToDouble() usage							| 92e0e3b0942574dbd37cb46b1c3e15d4dceb7002			|
 
 ### How to get certain commit from GitHub project
 ------------------------------------------------
