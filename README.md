@@ -18,6 +18,7 @@ Refer the section below on how to [get a specific commit(https://github.com/prem
 |  	5.	  | Lecture4 - Distinct & Collectors.toSet() - Finding distinct elements - return distinct elements as list and as set	| 315c608eaf7335463c4a954f3abec4a418c0a34a			|
 |  	6.	  | Lecture5 - Filtering & Transformations - filter, stream.map() and stream.mapToDouble() usage						| 92e0e3b0942574dbd37cb46b1c3e15d4dceb7002			|
 |  	7.	  | Lecture6 - FindAny & FindFirst - findAny and findFirst number which is greater than 5 and less than 10				| b09e23d7add800b5974b1cdae0ba3e2fd91796ed			|
+|  	8.	  | Lecture7 - Statistics from Collections - count, max, min, sum, average												| a3f9e5773e47e879272665e120526ac45b984762			|
 
 ### How to get certain commit from GitHub project
 ------------------------------------------------
