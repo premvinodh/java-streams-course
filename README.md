@@ -21,6 +21,7 @@ Refer the section below on how to [get a specific commit(https://github.com/prem
 |  	8.	  | Lecture7 - Statistics from Collections - count, max, min, sum, average												| a3f9e5773e47e879272665e120526ac45b984762			|
 |  	9.	  | Lecture8 - Grouping data with streams like sql																		| 12f7c66cbfbdbe31737b05d9af48ec07fb77332e			|
 |  	10.	  | Lecture9 - Reduce - sum all elements in the array using reduce														| 45b258d726e7c94510b3a0a172fb623323bc05b8			|
+|  	11.	  | Lecture10 - FlatMap - collapse 2D list of names to 1D list of names													| 3da234eb9b842f929a01b7768deeb97c00fe6bbd			|
 
 ### How to get certain commit from GitHub project
 ------------------------------------------------
