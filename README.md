@@ -23,6 +23,7 @@ Refer the section below on how to [get a specific commit(https://github.com/prem
 |  	10.	  | Lecture9 - Reduce - sum all elements in the array using reduce														| 45b258d726e7c94510b3a0a172fb623323bc05b8			|
 |  	11.	  | Lecture10 - FlatMap - collapse 2D list of names to 1D list of names													| 3da234eb9b842f929a01b7768deeb97c00fe6bbd			|
 |  	12.	  | Lecture11 - Joining strings																							| 4a0521b7a3ed17b9e386001562484131dd2fd2ce			|
+|  	13.	  | Lecture12 - Understanding collect																					| c20f9b58603a222522e670cd6e4cab4e3b8d89e9			|
 
 ### How to get certain commit from GitHub project
 ------------------------------------------------
