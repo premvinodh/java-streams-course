@@ -4,7 +4,8 @@
 # djdjalas/java-streams-course
 Contains the following project (cloned from djdjalas github)
 - java-streams-course/tree/base
-- The Additional Topics are my addition for additional practice.
+	- Lectures are from djdjalas github master branch (https://github.com/djdjalas/java-streams-course/tree/master) copied to my base branch (https://github.com/premvinodh/java-streams-course/tree/base)
+	- The Additional Topics are my addition for additional practice.
 
 Commits and their associated topics
 -----------------------------------
@@ -36,6 +37,7 @@ Refer the section below on how to [get a specific commit(https://github.com/prem
 |  	3.	  | 1D Using Lists - Maximum and minimum of 'n' numbers 																| 38555d696fa23a09cdafadb90f33af2a6bd21dc8			|
 |  	4.	  | 1D Using Lists - Maximum and minimum of 'n' numbers along with their positions										| 60eb90d4b3c6d59c7e0cc1da756515158c1f0f56			|
 |  	5.	  | 1D Using Lists - Sort the elements in descending order																| 8e63e4ced7657260290437d18c57a01b5e12cfe6			|
+|  	6.	  | 1D Using Lists - Sort the elements in ascending order																| 240fcbde549b8d832377a147f18e244df3ed0b25			|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### How to get certain commit from GitHub project
