@@ -25,6 +25,13 @@ Refer the section below on how to [get a specific commit(https://github.com/prem
 |  	12.	  | Lecture11 - Joining strings																							| 4a0521b7a3ed17b9e386001562484131dd2fd2ce			|
 |  	13.	  | Lecture12 - Understanding collect																					| c20f9b58603a222522e670cd6e4cab4e3b8d89e9			|
 |  	14.	  | Lecture13 - Understanding intermediate and terminal operations														| c81b027b1945e716a9c85aceab8e4ccc596c7f5f			|
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Additional Topics
+| Sl.No	  | Topic                         									                                      				| Commit Hash           							|
+|:-------:|---------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------:|
+|  	1.	  | 1D Using Lists - Display the list															     		  			| 400dc3544cdad96470daa0266d403ae98aca45aa			|
+
 
 ### How to get certain commit from GitHub project
 ------------------------------------------------
