@@ -33,6 +33,7 @@ Refer the section below on how to [get a specific commit(https://github.com/prem
 |  	1.	  | 1D Using Lists - Display the list															     		  			| 400dc3544cdad96470daa0266d403ae98aca45aa			|
 |  	2.	  | 1D Using Lists - Linear Search																     		  			| 1d969f3b2ce606fe2a46757b0090085ff13a9edd			|
 |  	3.	  | 1D Using Lists - Maximum and minimum of 'n' numbers 																| 38555d696fa23a09cdafadb90f33af2a6bd21dc8			|
+|  	4.	  | 1D Using Lists - Maximum and minimum of 'n' numbers along with their positions										| 60eb90d4b3c6d59c7e0cc1da756515158c1f0f56			|
 
 
 ### How to get certain commit from GitHub project
