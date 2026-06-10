@@ -31,6 +31,7 @@ Refer the section below on how to [get a specific commit(https://github.com/prem
 | Sl.No	  | Topic                         									                                      				| Commit Hash           							|
 |:-------:|---------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------:|
 |  	1.	  | 1D Using Lists - Display the list															     		  			| 400dc3544cdad96470daa0266d403ae98aca45aa			|
+|  	2.	  | 1D Using Lists - Linear Search																     		  			| 1d969f3b2ce606fe2a46757b0090085ff13a9edd			|
 
 
 ### How to get certain commit from GitHub project
