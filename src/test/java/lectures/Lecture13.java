@@ -22,7 +22,7 @@ public class Lecture13 {
               System.out.println("mapping price " + price);
               return price + (price * .14);
             })
-            .collect(Collectors.toList())
+            .collect(Collectors.toList()) // Comment this out and the intermediate operations are not executed.. Meaning lazy evaluation.
     );
   }
 }
