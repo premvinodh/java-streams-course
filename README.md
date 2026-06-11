@@ -42,6 +42,7 @@ Refer the section below on how to [How to get certain commit from GitHub project
 |  	8.	  | 1D Using Lists - Find the second smallest element after sorting the elements in ascending order						| 11e6d270e58266ac50ea7d556f3536aaf1ee458e			|
 |  	9.	  | 1D Using Lists - Delete duplicate elements from the list															| d053a22268bff7c89cf06276f46511f976ee7024			|
 |  	10.	  | 1D Using Lists - Count number of times each element of the list is repeating										| e8394bd59da0d6be72f96bd783d4aa53d1fa888a			|
+|  	11.	  | 1D Using Lists - Delete element from position																		| 152d54d1e8e4b990c23c30c0512539c1b375972e			|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### How to get certain commit from GitHub project
