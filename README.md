@@ -5,7 +5,7 @@
 Contains the following project (cloned from djdjalas github)
 - java-streams-course/tree/base
 	- Lectures are from djdjalas github master branch (https://github.com/djdjalas/java-streams-course/tree/master) copied to my base branch (https://github.com/premvinodh/java-streams-course/tree/base)
-	- The Additional Topics are my addition for additional practice.
+	- The [Additional Topics](#additional-topics) are my addition for more practice.
 
 Commits and their associated topics
 -----------------------------------
@@ -36,7 +36,7 @@ Refer the section below on how to [get a specific commit(https://github.com/prem
 |  	2.	  | 1D Using Lists - Linear Search																     		  			| 1d969f3b2ce606fe2a46757b0090085ff13a9edd			|
 |  	3.	  | 1D Using Lists - Maximum and minimum of 'n' numbers 																| 38555d696fa23a09cdafadb90f33af2a6bd21dc8			|
 |  	4.	  | 1D Using Lists - Maximum and minimum of 'n' numbers along with their positions										| 60eb90d4b3c6d59c7e0cc1da756515158c1f0f56			|
-|  	5.	  | 1D Using Lists - Sort the elements in descending order																| 8e63e4ced7657260290437d18c57a01b5e12cfe6			|
+|  	5.	  | 1D Using Lists - Sort the elements in descending order																| 821944cdd8e2c8948e386ae0aa9d71c2391622dc			|
 |  	6.	  | 1D Using Lists - Sort the elements in ascending order																| 240fcbde549b8d832377a147f18e244df3ed0b25			|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
