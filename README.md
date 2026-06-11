@@ -40,6 +40,7 @@ Refer the section below on how to [How to get certain commit from GitHub project
 |  	6.	  | 1D Using Lists - Sort the elements in ascending order																| 4210cae57cf171a8e7bb0d51f59c60f4064ffaf2			|
 |  	7.	  | 1D Using Lists - Find the second largest element after sorting the elements in descending order						| bdcc532b8c31a3f9edeb9c9135470be8fb14882f			|
 |  	8.	  | 1D Using Lists - Find the second smallest element after sorting the elements in ascending order						| 11e6d270e58266ac50ea7d556f3536aaf1ee458e			|
+|  	9.	  | 1D Using Lists - Delete duplicate elements from the list															| d053a22268bff7c89cf06276f46511f976ee7024			|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### How to get certain commit from GitHub project
