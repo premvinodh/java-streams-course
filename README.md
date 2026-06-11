@@ -48,6 +48,7 @@ Refer the section below on how to [How to get certain commit from GitHub project
 |  	14.	  | 1D Using Lists - Find the sum of all elements in the list															| f2c8fe99ee6f41da3d7d37e96ca5a49848379af8			|
 |  	15.	  | 1D Using Lists - Count number of evens and odds in the list															| eed92a5ff431df30155b1f305bee1a5fbf5cd04c			|
 |  	16.	  | 1D Using Lists - Count number of primes in the list																	| f9bd5298c0f6a266cd90badd0c2f903c26b01952			|
+|  	17.	  | 1D Using Lists - Count number of perfects in the list																| 1c2df500c8dc4b07dd1fcc1dccb98a5d35029f1a			|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### How to get certain commit from GitHub project
