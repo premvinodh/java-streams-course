@@ -46,6 +46,7 @@ Refer the section below on how to [How to get certain commit from GitHub project
 |  	12.	  | 1D Using Lists - Delete element based on value																		| 1fbf4a77d204fc13dca122ab7919c2e8a27b83b5			|
 |  	13.	  | 1D Using Lists - Merge 2 sorted lists - keeping the sorted order													| 9e1566a254976b68bbc0103480370ceb543977c5			|
 |  	14.	  | 1D Using Lists - Find the sum of all elements in the list															| f2c8fe99ee6f41da3d7d37e96ca5a49848379af8			|
+|  	15.	  | 1D Using Lists - Count number of evens and odds in the list															| eed92a5ff431df30155b1f305bee1a5fbf5cd04c			|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### How to get certain commit from GitHub project
