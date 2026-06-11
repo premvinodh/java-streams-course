@@ -7,7 +7,7 @@ import java.util.stream.IntStream;
 import org.junit.Test;
 
 
-public class Streams_01_ArrayLists1DInputOUtput {
+public class Streams_01_Lists1DInputOutput {
 
     private final List<Integer> lstNumbers = Arrays.asList(55, 22, 33, 11, 44);
 
