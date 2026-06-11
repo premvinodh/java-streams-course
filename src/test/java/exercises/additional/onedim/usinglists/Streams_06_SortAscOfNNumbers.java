@@ -8,13 +8,21 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import org.junit.Test;
 
+/**
+ * Sort the elements in ascending order
+ */
 public class Streams_06_SortAscOfNNumbers {
 
-    private final List<Integer> lstNumbers = Arrays.asList(55, 32, 86, 43, 29);
-
+    /**
+     * Collections.sort(lstNumbers, Collections.naturalOrder()); // Simplest alternative
+     *
+     * @throws IOException
+     */
     @Test
     public void imperativeApproachUsingLists() throws IOException {
         System.out.println("Imperative Approach - List");
+
+        List<Integer> lstNumbers = Arrays.asList(55, 32, 86, 43, 29);
 
         for (int i = 0; i < lstNumbers.size() - 1; i++) {
             for (int j = i + 1; j < lstNumbers.size(); j++) {
@@ -27,13 +35,15 @@ public class Streams_06_SortAscOfNNumbers {
         }
         System.out.println("Elements in sorted order - ascending");
         for (Integer val : lstNumbers) {
-            System.out.print(val + " ");
+            System.out.println(val);
         }
     }
 
     @Test
     public void declarativeApproachUsingStreamsOnLists() throws Exception {
         System.out.println("Declarative Approach - List");
+
+        List<Integer> lstNumbers = Arrays.asList(55, 32, 86, 43, 29);
 
         List<Integer> sortedDescending = lstNumbers.stream()
             .sorted(Comparator.naturalOrder())
@@ -46,7 +56,10 @@ public class Streams_06_SortAscOfNNumbers {
 
     @Test
     public void declarativeApproachUsingIntStreamsSimilarToImperativeApproach() throws Exception {
-        System.out.println("Declarative Approach IntStream - Method 1: Similar to imperative approach");
+        System.out.println(
+            "Declarative Approach IntStream - Method 1: Similar to imperative approach");
+
+        List<Integer> lstNumbers = Arrays.asList(55, 32, 86, 43, 29);
 
         IntStream.range(0, lstNumbers.size() - 1)
             .forEach(i ->
@@ -68,6 +81,8 @@ public class Streams_06_SortAscOfNNumbers {
     @Test
     public void declarativeApproachUsingIntStreamsUsingMapToObj() throws Exception {
         System.out.println("Declarative Approach IntStream - Method 2: Using mapToObj");
+
+        List<Integer> lstNumbers = Arrays.asList(55, 32, 86, 43, 29);
 
         List<Integer> sortedNums = IntStream.range(0, lstNumbers.size())
             .mapToObj(lstNumbers::get)
