@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.IntStream;
 import org.junit.Test;
 
-public class Streams_13_MergeTwoSortedArrays {
+public class Streams_13_MergeTwoSortedLists {
 
     private final List<Integer> lstNumbers1 = Arrays.asList(11, 22, 35, 41, 60);
     private final List<Integer> lstNumbers2 = Arrays.asList(8, 12, 46, 94, 160);
