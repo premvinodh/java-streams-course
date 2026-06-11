@@ -37,7 +37,7 @@ Refer the section below on how to [get a specific commit(https://github.com/prem
 |  	3.	  | 1D Using Lists - Maximum and minimum of 'n' numbers 																| 38555d696fa23a09cdafadb90f33af2a6bd21dc8			|
 |  	4.	  | 1D Using Lists - Maximum and minimum of 'n' numbers along with their positions										| 60eb90d4b3c6d59c7e0cc1da756515158c1f0f56			|
 |  	5.	  | 1D Using Lists - Sort the elements in descending order																| 821944cdd8e2c8948e386ae0aa9d71c2391622dc			|
-|  	6.	  | 1D Using Lists - Sort the elements in ascending order																| 240fcbde549b8d832377a147f18e244df3ed0b25			|
+|  	6.	  | 1D Using Lists - Sort the elements in ascending order																| 4210cae57cf171a8e7bb0d51f59c60f4064ffaf2			|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### How to get certain commit from GitHub project
