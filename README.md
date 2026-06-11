@@ -47,6 +47,7 @@ Refer the section below on how to [How to get certain commit from GitHub project
 |  	13.	  | 1D Using Lists - Merge 2 sorted lists - keeping the sorted order													| 9e1566a254976b68bbc0103480370ceb543977c5			|
 |  	14.	  | 1D Using Lists - Find the sum of all elements in the list															| f2c8fe99ee6f41da3d7d37e96ca5a49848379af8			|
 |  	15.	  | 1D Using Lists - Count number of evens and odds in the list															| eed92a5ff431df30155b1f305bee1a5fbf5cd04c			|
+|  	16.	  | 1D Using Lists - Count number of primes in the list																	| f9bd5298c0f6a266cd90badd0c2f903c26b01952			|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### How to get certain commit from GitHub project
