@@ -9,7 +9,7 @@ Contains the following project (cloned from djdjalas github)
 
 Commits and their associated topics
 -----------------------------------
-Refer the section below on how to [get a specific commit(https://github.com/premvinodh/java-streams-course#how-to-get-certain-commit-from-github-project)].
+Refer the section below on how to [How to get certain commit from GitHub project](#how-to-get-certain-commit-from-github-project).
 
 | Sl.No	  | Topic                         									                                      				| Commit Hash           							|
 |:-------:|---------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------:|
@@ -39,6 +39,7 @@ Refer the section below on how to [get a specific commit(https://github.com/prem
 |  	5.	  | 1D Using Lists - Sort the elements in descending order																| 821944cdd8e2c8948e386ae0aa9d71c2391622dc			|
 |  	6.	  | 1D Using Lists - Sort the elements in ascending order																| 4210cae57cf171a8e7bb0d51f59c60f4064ffaf2			|
 |  	7.	  | 1D Using Lists - Find the second largest element after sorting the elements in descending order						| bdcc532b8c31a3f9edeb9c9135470be8fb14882f			|
+|  	8.	  | 1D Using Lists - Find the second smallest element after sorting the elements in ascending order						| 11e6d270e58266ac50ea7d556f3536aaf1ee458e			|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### How to get certain commit from GitHub project
