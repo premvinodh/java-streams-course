@@ -80,6 +80,10 @@ Step 2: Replace any integer values with AtomicInteger
                 int valueToPrint
             With 
                 AtomicInteger valueToPrint = new AtomicInteger()
+				
+			Replace valueToPrint with valueToPrint.intValue();
+			Replace valueToPrint++ with valueToPrint.getAndIncrement();
+			Replace valueToPrint-- with valueToPrint.getAndDecrement();
 
 ------------------------------
 
