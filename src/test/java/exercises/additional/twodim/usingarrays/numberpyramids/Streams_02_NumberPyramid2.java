@@ -21,7 +21,7 @@ public class Streams_02_NumberPyramid2 {
 
     @Test
     public void imperativeApproach() throws IOException {
-        System.out.println("Imperative Approach - Arrays");
+        System.out.println("Imperative Approach");
 
         for (int i = 1; i <= noOfLines; i++) {
             int valueToPrint = (i + 1) % 2;
@@ -83,7 +83,7 @@ public class Streams_02_NumberPyramid2 {
 
     @Test
     public void declarativeApproachUsingStreams() throws Exception {
-        System.out.println("Declarative Approach - List");
+        System.out.println("Declarative Approach");
 
     }
 }
