@@ -68,6 +68,46 @@ Refer the section below on how to [How to get certain commit from GitHub project
 |  	5.	  | Number Pyramid 5																			     		  			| 8c39d6bd8432494ebe2393aaf23526a9df90742a			|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+#### Streams_05_NumberPyramid5
+##### Steps to convert imperativeApproach to declarativeApproachUsingIntStreamsSimilarToImperativeApproach of Streams_05_NumberPyramid5
+Step 1: Replace each for loop with its appropriate variable
+			for (int i = 1; i <= noOfLines; i++) {
+		With
+			IntStream.rangeClosed(1, noOfLines).forEach(i -> {});
+			
+Step 2: Replace any integer values with AtomicInteger	
+    For Eg., Replace  
+                int valueToPrint
+            With 
+                AtomicInteger valueToPrint = new AtomicInteger()
+
+------------------------------
+
+##### Steps to convert declarativeApproachUsingIntStreamsSimilarToImperativeApproach to declarativeApproachUsingIntStreamsUsingMapToObj of Streams_05_NumberPyramid5
+Step 1: Replace the forEach of the outer most IntStream (related to the variable i)
+		
+			IntStream.rangeClosed(1, noOfLines)
+				.forEach(i -> {});
+		
+		With 
+			 IntStream.rangeClosed(1, noOfLines)
+				.mapToObj(i -> {})
+				.forEach(System.out::println);
+				
+Step 2: Replace the forEach of the inner IntStream (related to variable j, k, l, etc)
+		
+			IntStream.rangeClosed(1, (noOfLines - i))
+                    .forEach(j -> { });
+		With
+			IntStream.rangeClosed(1, (noOfLines - i))
+                    .mapToObj(j -> { });
+					
+Step 3: Replace the System.out.printf() present in the inner IntStream with String.format()
+
+Step 4: Collect the data using collect(Collectors.joining())
+
+------------------------------
+
 ### How to get certain commit from GitHub project
 ------------------------------------------------
 1. First, clone the repository using git as shown below
@@ -78,3 +118,5 @@ Refer the section below on how to [How to get certain commit from GitHub project
 
 3. Use git checkout <COMMIT> to change to the right commit of a particular topic
    git checkout 675a66cca83cdab6bfa4d713c6445674854b9238
+
+
