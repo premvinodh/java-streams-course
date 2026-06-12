@@ -52,10 +52,16 @@ Refer the section below on how to [How to get certain commit from GitHub project
 |  	17.	  | 1D Using Lists - Count number of perfects in the list																| 1c2df500c8dc4b07dd1fcc1dccb98a5d35029f1a			|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Practice Problems using Double Dimension Arrays (used arrays for my programs - experiment with list of lists too for more practice)
+### 2D Arrays Practice Problems (used arrays for my programs - experiment with list of lists too for more practice)
 | Sl.No	  | Topic                         									                                      				| Commit Hash           							|
 |:-------:|---------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------:|
 |  	1.	  | 2D Using Arrays - Display the elements of the 2D array										     		  			| 3d5592bd6a180d71b3db2451ceefbb2acec8e672			|
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Number Pyramid Practice Problems
+| Sl.No	  | Topic                         									                                      				| Commit Hash           							|
+|:-------:|---------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------:|
+|  	1.	  | Number Pyramid 1																			     		  			| 90771c19c0648eeee2e4f1c54408cf93ba3495a9			|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### How to get certain commit from GitHub project
