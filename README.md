@@ -61,7 +61,7 @@ Refer the section below on how to [How to get certain commit from GitHub project
 ### Number Pyramid Practice Problems
 | Sl.No	  | Topic                         									                                      				| Commit Hash           							|
 |:-------:|---------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------:|
-|  	1.	  | Number Pyramid 1																			     		  			| 90771c19c0648eeee2e4f1c54408cf93ba3495a9			|
+|  	1.	  | Number Pyramid 1																			     		  			| 7b2b4f150bcc941626e06759caefd6bd6403c5c9			|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### How to get certain commit from GitHub project
