@@ -70,46 +70,116 @@ Refer the section below on how to [How to get certain commit from GitHub project
 
 #### Streams_05_NumberPyramid5
 ##### Steps to convert imperativeApproach to declarativeApproachUsingIntStreamsSimilarToImperativeApproach of Streams_05_NumberPyramid5
-Step 1: Replace each for loop with its appropriate variable
-			for (int i = 1; i <= noOfLines; i++) {
-		With
-			IntStream.rangeClosed(1, noOfLines).forEach(i -> {});
 			
+Step 1: Replace each for loop with its appropriate variable
+
+		```java
+		for (int i = 1; i <= noOfLines; i++) {
+		```
+
+		With
+
+		```java
+		IntStream.rangeClosed(1, noOfLines).forEach(i -> {});
+		```
+
 Step 2: Replace any integer values with AtomicInteger	
     For Eg., Replace  
+	
+			```java
                 int valueToPrint
+			```
+			
             With 
+			
+			```java
                 AtomicInteger valueToPrint = new AtomicInteger()
+			```
 				
-			Replace valueToPrint with valueToPrint.intValue();
-			Replace valueToPrint++ with valueToPrint.getAndIncrement();
-			Replace valueToPrint-- with valueToPrint.getAndDecrement();
-
+			Replace 
+			
+			```java
+				valueToPrint 
+			```
+			
+			With 
+			
+			```java
+			valueToPrint.intValue();
+			```
+			
+			Replace 
+			
+			```java
+			valueToPrint++ 
+			```
+			
+			With 
+			
+			```java
+			valueToPrint.getAndIncrement();
+			```
+			
+			Replace 
+			
+			```java
+			valueToPrint-- 
+			```
+			
+			With 
+			
+			```java
+			valueToPrint.getAndDecrement();
+			```
 ------------------------------
 
 ##### Steps to convert declarativeApproachUsingIntStreamsSimilarToImperativeApproach to declarativeApproachUsingIntStreamsUsingMapToObj of Streams_05_NumberPyramid5
 Step 1: Replace the forEach of the outer most IntStream (related to the variable i)
 		
+		```java
 			IntStream.rangeClosed(1, noOfLines)
 				.forEach(i -> {});
+		```
 		
 		With 
+		
+		```java
 			 IntStream.rangeClosed(1, noOfLines)
 				.mapToObj(i -> {})
 				.forEach(System.out::println);
+		```
 				
 Step 2: Replace the forEach of the inner IntStream (related to variable j, k, l, etc)
 		
+		```java
 			IntStream.rangeClosed(1, (noOfLines - i))
                     .forEach(j -> { });
+		```
+		
 		With
+		
+		```java
 			IntStream.rangeClosed(1, (noOfLines - i))
                     .mapToObj(j -> { });
-					
-Step 3: Replace the System.out.printf() present in the inner IntStream with String.format()
+		```
+		
+Step 3: Replace 
 
-Step 4: Collect the data using collect(Collectors.joining())
+		```java
+			System.out.printf() 
+		```
+		
+		present in the inner IntStream with 
+		
+		```java
+			String.format()
+		```
 
+Step 4: Collect the data using 
+		
+		```java
+			collect(Collectors.joining())
+		```
 ------------------------------
 
 ### How to get certain commit from GitHub project
