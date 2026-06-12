@@ -30,6 +30,7 @@ Refer the section below on how to [How to get certain commit from GitHub project
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Additional Topics
+### Practice Problems using Lists or Single Dimension Arrays (used lists for my programs - experiment with arrays too for more practice)
 | Sl.No	  | Topic                         									                                      				| Commit Hash           							|
 |:-------:|---------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------:|
 |  	1.	  | 1D Using Lists - Display the list															     		  			| 400dc3544cdad96470daa0266d403ae98aca45aa			|
@@ -49,6 +50,12 @@ Refer the section below on how to [How to get certain commit from GitHub project
 |  	15.	  | 1D Using Lists - Count number of evens and odds in the list															| eed92a5ff431df30155b1f305bee1a5fbf5cd04c			|
 |  	16.	  | 1D Using Lists - Count number of primes in the list																	| f9bd5298c0f6a266cd90badd0c2f903c26b01952			|
 |  	17.	  | 1D Using Lists - Count number of perfects in the list																| 1c2df500c8dc4b07dd1fcc1dccb98a5d35029f1a			|
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Practice Problems using Double Dimension Arrays (used arrays for my programs - experiment with list of lists too for more practice)
+| Sl.No	  | Topic                         									                                      				| Commit Hash           							|
+|:-------:|---------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------:|
+|  	1.	  | 2D Using Arrays - Display the elements of the 2D array										     		  			| 3d5592bd6a180d71b3db2451ceefbb2acec8e672			|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### How to get certain commit from GitHub project
