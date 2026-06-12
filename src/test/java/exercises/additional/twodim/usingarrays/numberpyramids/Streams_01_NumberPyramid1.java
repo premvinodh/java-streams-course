@@ -23,8 +23,7 @@ public class Streams_01_NumberPyramid1 {
     public void imperativeApproachUsingArrays() throws IOException {
         System.out.println("Imperative Approach - Arrays");
 
-        // First iteration runs from zero to zero which is empty, hence noOfLines is incremented by 1
-        for (int i = 0; i < noOfLines + 1; i++) {
+        for (int i = 1; i <= noOfLines; i++) {
             int valueToPrint = i;
             for (int j = 0; j < i; j++) {
                 System.out.printf("%4d", valueToPrint);
@@ -39,7 +38,7 @@ public class Streams_01_NumberPyramid1 {
         System.out.println(
             "Declarative Approach IntStream - Method 1: Similar to imperative approach");
 
-        IntStream.range(0, noOfLines + 1)
+        IntStream.rangeClosed(1, noOfLines)
             .forEach(i -> {
                 AtomicInteger valueToPrint = new AtomicInteger(i);
                 IntStream.range(0, i)
@@ -55,17 +54,17 @@ public class Streams_01_NumberPyramid1 {
     public void declarativeApproachUsingIntStreamsUsingMapToObj() throws Exception {
         System.out.println("Declarative Approach IntStream - Method 2: Using mapToObj");
 
-        IntStream.range(0, noOfLines + 1)
+        IntStream.rangeClosed(1, noOfLines)
             .forEach(i -> {
                 IntStream.range(i, i + i)
                     .mapToObj(v -> String.format("%4d", v))
                     .forEach(System.out::print);
 
-                System.out.println();
+                System.out.println("");
             });
 
         //
-        IntStream.range(0, noOfLines + 1)
+        IntStream.rangeClosed(1, noOfLines)
             .mapToObj(i ->
                 IntStream.range(i, i + i)
                     .mapToObj(v -> String.format("%4d", v))
