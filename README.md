@@ -65,6 +65,7 @@ Refer the section below on how to [How to get certain commit from GitHub project
 |  	2.	  | Number Pyramid 2																			     		  			| e2eff529eb360fbef62ade608618c64ad062a911			|
 |  	3.	  | Number Pyramid 3																			     		  			| 23fc4369c1a398b475220e5039ecc8c96e460195			|
 |  	4.	  | Number Pyramid 4																			     		  			| cef3d0f37edd03c5cf4bcc262ef65fe35232c365			|
+|  	5.	  | Number Pyramid 5																			     		  			| 8c39d6bd8432494ebe2393aaf23526a9df90742a			|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### How to get certain commit from GitHub project
