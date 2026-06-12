@@ -20,7 +20,7 @@ public class Streams_01_NumberPyramid1 {
     private final int noOfLines = 5;
 
     @Test
-    public void imperativeApproachUsingArrays() throws IOException {
+    public void imperativeApproach() throws IOException {
         System.out.println("Imperative Approach - Arrays");
 
         for (int i = 1; i <= noOfLines; i++) {
