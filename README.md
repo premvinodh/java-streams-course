@@ -75,7 +75,11 @@ Refer the section below on how to [How to get certain commit from GitHub project
 
 Copy all the code from `imperativeApproach` function to `declarativeApproachUsingIntStreamsSimilarToImperativeApproach` function
 
-**Step 1:** Replace each `for` loop with its appropriate variable.
+**Step 1:** Copy the Existing Logic
+
+Copy the entire implementation from the imperativeApproach() method into the declarativeApproachUsingIntStreamsSimilarToImperativeApproach() method.
+
+**Step 2:** Replace each `for` loop with its appropriate variable.
 
 ```java
 for (int i = 1; i <= noOfLines; i++) {
@@ -141,9 +145,11 @@ valueToPrint.getAndDecrement();
 
 ##### Steps to convert `declarativeApproachUsingIntStreamsSimilarToImperativeApproach` to `declarativeApproachUsingIntStreamsUsingMapToObj` of `Streams_05_NumberPyramid5`
 
-Copy all the code from `declarativeApproachUsingIntStreamsSimilarToImperativeApproach` function to `declarativeApproachUsingIntStreamsUsingMapToObj` function
+**Step 1:** Copy the Existing Logic
 
-**Step 1:** Replace the `forEach` of the outermost `IntStream` (related to variable `i`).
+Copy the entire implementation from the declarativeApproachUsingIntStreamsSimilarToImperativeApproach() method into the declarativeApproachUsingIntStreamsUsingMapToObj() method.
+
+**Step 2:** Replace the `forEach` of the outermost `IntStream` (related to variable `i`).
 
 ```java
 IntStream.rangeClosed(1, noOfLines)
@@ -158,7 +164,7 @@ IntStream.rangeClosed(1, noOfLines)
     .forEach(System.out::println);
 ```
 
-**Step 2:** Replace the `forEach` of the inner `IntStream` (related to variables `j`, `k`, `l`, etc.).
+**Step 3:** Replace the `forEach` of the inner `IntStream` (related to variables `j`, `k`, `l`, etc.).
 
 ```java
 IntStream.rangeClosed(1, (noOfLines - i))
@@ -172,7 +178,7 @@ IntStream.rangeClosed(1, (noOfLines - i))
     .mapToObj(j -> {});
 ```
 
-**Step 3:** Replace
+**Step 4:** Replace
 
 ```java
 System.out.printf()
@@ -184,7 +190,7 @@ present in the inner `IntStream` with
 String.format()
 ```
 
-**Step 4:** Collect the data using
+**Step 5:** Collect the data using
 
 ```java
 collect(Collectors.joining())
