@@ -67,6 +67,7 @@ Refer the section below on how to [How to get certain commit from GitHub project
 |  	4.	  | Number Pyramid 4																			     		  			| cef3d0f37edd03c5cf4bcc262ef65fe35232c365			|
 |  	5.	  | Number Pyramid 5																			     		  			| 8c39d6bd8432494ebe2393aaf23526a9df90742a			|
 |  	6.	  | Number Pyramid 6																			     		  			| 2651a13d15e66938a423d150abbcc5e6c7b3db30			|
+|  	7.	  | Number Pyramid 7																			     		  			| 20de4e61a7130cee99a04a1da5b6eb8f3fbb2671			|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### Streams_05_NumberPyramid5
