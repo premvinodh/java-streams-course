@@ -82,13 +82,17 @@ Copy the entire implementation from the imperativeApproach() method into the dec
 **Step 2:** Replace each `for` loop with its appropriate variable.
 
 ```java
-for (int i = 1; i <= noOfLines; i++) {
+for (int i = 1; i <= noOfLines; i++) { 
+
+}
 ```
 
 **With**
 
 ```java
-IntStream.rangeClosed(1, noOfLines).forEach(i -> {});
+IntStream.rangeClosed(1, noOfLines).forEach(i -> {
+
+});
 ```
 
 **Step 2:** Replace any integer values with `AtomicInteger`.
@@ -153,14 +157,18 @@ Copy the entire implementation from the declarativeApproachUsingIntStreamsSimila
 
 ```java
 IntStream.rangeClosed(1, noOfLines)
-    .forEach(i -> {});
+    .forEach(i -> {
+	
+	});
 ```
 
 **With**
 
 ```java
 IntStream.rangeClosed(1, noOfLines)
-    .mapToObj(i -> {})
+    .mapToObj(i -> {
+	
+	})
     .forEach(System.out::println);
 ```
 
@@ -168,14 +176,18 @@ IntStream.rangeClosed(1, noOfLines)
 
 ```java
 IntStream.rangeClosed(1, (noOfLines - i))
-    .forEach(j -> {});
+    .forEach(j -> {
+	
+	});
 ```
 
 **With**
 
 ```java
 IntStream.rangeClosed(1, (noOfLines - i))
-    .mapToObj(j -> {});
+    .mapToObj(j -> {
+	
+	});
 ```
 
 **Step 4:** Replace
