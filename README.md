@@ -56,6 +56,7 @@ Refer the section below on how to [How to get certain commit from GitHub project
 | Sl.No	  | Topic                         									                                      				| Commit Hash           							|
 |:-------:|---------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------:|
 |  	1.	  | 2D Using Arrays - Display the elements of the 2D array										     		  			| 3d5592bd6a180d71b3db2451ceefbb2acec8e672			|
+|  	2.	  | 2D Using Arrays - Sum of elements of 2D Matrix												     		  			| 6ac966897a10f09bc094a73f106b1fc8c58d3599			|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Number Pyramid Practice Problems
@@ -75,8 +76,6 @@ Refer the section below on how to [How to get certain commit from GitHub project
 #### Streams_05_NumberPyramid5
 
 ##### Steps to convert `imperativeApproach` to `declarativeApproachUsingIntStreamsSimilarToImperativeApproach` of `Streams_05_NumberPyramid5`
-
-Copy all the code from `imperativeApproach` function to `declarativeApproachUsingIntStreamsSimilarToImperativeApproach` function
 
 **Step 1:** Copy the Existing Logic
 
@@ -222,5 +221,3 @@ collect(Collectors.joining())
 
 3. Use git checkout <COMMIT> to change to the right commit of a particular topic
    git checkout 675a66cca83cdab6bfa4d713c6445674854b9238
-
-
