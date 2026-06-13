@@ -66,11 +66,14 @@ Refer the section below on how to [How to get certain commit from GitHub project
 |  	3.	  | Number Pyramid 3																			     		  			| 23fc4369c1a398b475220e5039ecc8c96e460195			|
 |  	4.	  | Number Pyramid 4																			     		  			| cef3d0f37edd03c5cf4bcc262ef65fe35232c365			|
 |  	5.	  | Number Pyramid 5																			     		  			| 8c39d6bd8432494ebe2393aaf23526a9df90742a			|
+|  	6.	  | Number Pyramid 6																			     		  			| 2651a13d15e66938a423d150abbcc5e6c7b3db30			|
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### Streams_05_NumberPyramid5
 
 ##### Steps to convert `imperativeApproach` to `declarativeApproachUsingIntStreamsSimilarToImperativeApproach` of `Streams_05_NumberPyramid5`
+
+Copy all the code from `imperativeApproach` function to `declarativeApproachUsingIntStreamsSimilarToImperativeApproach` function
 
 **Step 1:** Replace each `for` loop with its appropriate variable.
 
@@ -137,6 +140,8 @@ valueToPrint.getAndDecrement();
 ---
 
 ##### Steps to convert `declarativeApproachUsingIntStreamsSimilarToImperativeApproach` to `declarativeApproachUsingIntStreamsUsingMapToObj` of `Streams_05_NumberPyramid5`
+
+Copy all the code from `declarativeApproachUsingIntStreamsSimilarToImperativeApproach` function to `declarativeApproachUsingIntStreamsUsingMapToObj` function
 
 **Step 1:** Replace the `forEach` of the outermost `IntStream` (related to variable `i`).
 
